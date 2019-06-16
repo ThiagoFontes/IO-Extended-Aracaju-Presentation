@@ -11,7 +11,7 @@ Neste repositório estão o código fonte e configurações de projeto usados, a
 - Dois resistores de 50 ohms (Resistores comuns de 1/4)
 
 ## Circuito
-
+![Circuito](https://github.com/ThiagoFontes/IO-Extended-Aracaju-Presentation/raw/master/circuito.png)
 
 ## Compilando e envianado código para a placa
 Recomendo a utilização do Atom instalando todas as extensões do Platform.io. Após clonar o projeto e abrir a pasta  **firebase-sensor** no editor, com a opção **File -> Add Project Folder** é preciso informar no arquivo **main.cpp**:
@@ -19,5 +19,9 @@ Recomendo a utilização do Atom instalando todas as extensões do Platform.io. 
 - Senha da rede wifi
 - URL para o seu projeto firebase
 - Chave secreta do banco de dados
+
+### Bibliotecas usadas
+- Firebase ESP8266 Client by Mobizt
+- universal-thermistor by Paul Cowan
 
 Após as modificações no código, para compilar usar a opção **build**, para enviar o código para a placa que deve estar conectada via USB e já com o circuito montado usar a opção **upload**.
