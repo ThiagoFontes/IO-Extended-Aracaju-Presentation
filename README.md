@@ -8,7 +8,7 @@ Neste repositório estão o código fonte e configurações de projeto usados, a
 - Protoboard
 - NodeMCU (ESP8266)
 - NTC50D - 11 (Termistor)
-- Dois resistores de 50 ohms (Resistores comuns de 1/4)
+- Dois resistores de 100 ohms (Resistores comuns de 1/4)
 
 ## Circuito
 ![Circuito](https://github.com/ThiagoFontes/IO-Extended-Aracaju-Presentation/raw/master/circuito.png)
